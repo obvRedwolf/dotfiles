@@ -1,0 +1,6 @@
+[Unit]
+Description=Set random wallpaper and regenerate colors
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/random-wallpaper.sh
